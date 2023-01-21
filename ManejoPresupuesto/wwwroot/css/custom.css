@@ -1,0 +1,28 @@
+﻿#reordenable tr{
+    cursor: move,
+}
+
+.contenedor-totales {
+    display: flex; /*mostrar en columnas */
+    justify-content: space-around;
+    font-size: 26px;
+    text-align: center;
+}
+
+.activo {
+    color: blue;
+}
+
+.pasivo {
+    color: red;
+}
+
+.bg {
+    
+    background-position: center center;
+}
+
+.login {
+    background: #ffe259;
+    background: linear-gradient(to right, #ffa751, #ffe259);
+}
